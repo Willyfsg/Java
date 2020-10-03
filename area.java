@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.lang.Math;
-public class ejercicio4{
+public class area{
 	
 	public static void main (String argumentos[]) {
 		
