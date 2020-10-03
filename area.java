@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.lang.Math;
 public class area{
 	
-	public static void main (String argumentos[]) {
+	public static void main (String arg[]) {
 		//Declare a input from Scanner
 		Scanner input = new Scanner(System.in);	
 		
