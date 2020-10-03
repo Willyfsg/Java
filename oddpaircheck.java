@@ -21,9 +21,6 @@ public class oddpaircheck {
 		}
 		
 		System.out.println("\n\nEnd of Program.");
-
-		
-		
 	}
 
 }
