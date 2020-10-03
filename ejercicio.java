@@ -5,27 +5,27 @@ public class ejercicio {
 		int suma, aux1, aux2=0;
 		int mult, aux3, aux4=1;
 		
-		//Bucle for para imprimir los 5 primeros numeros positivos
+		//Loop for prints numbers from 1 to 5.
 		for(int i = 1 ; i <= 5 ; i++) {
 			System.out.printf("%d ", i);
 			
-			//Suma de los numeros.
+			//add all numbers from 1 to 5.
 			suma = aux2 + i;
 			aux1 = suma;
 			aux2 = aux1;
 		}
 		
 		for(int j = 1 ; j <= 5 ; j++) {
-			//Lo mismo pero multiplicando.
+			//Same but multiply.
 			mult = aux4 * j;
 			aux3 = mult;
 			aux4 = aux3;
 		}
 		
-		System.out.printf("\nEl valor de la suma de los cinco primeros enteros positivos es: %d", aux2);
-		System.out.printf("\nEl valor de la multiplicacion de los cinco primeros enteros es: %d", aux4);
-		System.out.print("\nLa multiplicacion dividida por tres es: " + aux4/3);
+		System.out.printf("\nThe add value is: %d", aux2);
+		System.out.printf("\nThe multiply value is: %d", aux4);
+		System.out.print("\nThe multiply divided by three is : " + aux4/3);
 		
-		System.out.print("\n\nFin del Programa.");
+		System.out.print("\n\nEnd of Program.");
 	}
 }
