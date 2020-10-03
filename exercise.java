@@ -1,8 +1,8 @@
-public class ejercicio {
+public class exercise {
 	
 	public static void main (String arg[]) {
 		
-		int suma, aux1, aux2=0;
+		int add, aux1, aux2=0;
 		int mult, aux3, aux4=1;
 		
 		//Loop for prints numbers from 1 to 5.
@@ -10,7 +10,7 @@ public class ejercicio {
 			System.out.printf("%d ", i);
 			
 			//add all numbers from 1 to 5.
-			suma = aux2 + i;
+			add = aux2 + i;
 			aux1 = suma;
 			aux2 = aux1;
 		}
