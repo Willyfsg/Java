@@ -26,8 +26,6 @@ public class module {
 			System.out.println("The result from the division has NOT residual zero: " + extra/10);
 		}
 
-		
-		System.out.println("\n\nEnd of Program.");
-		
+		System.out.println("\n\nEnd of Program.");		
 	}
 }
