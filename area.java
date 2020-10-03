@@ -3,22 +3,22 @@ import java.lang.Math;
 public class area{
 	
 	public static void main (String argumentos[]) {
+		//Declare a input from Scanner
+		Scanner input = new Scanner(System.in);	
 		
-		Scanner entrada = new Scanner(System.in);	//Declaramos la variable de entrada que usaremos para Scannear los prox valores.
+		final double PI = 3.1416; // constant number PI
 		
-		final double PI = 3.1416; // Constante PI
+		double Radius, Area;
 		
-		double Radio, Area;
+		System.out.println("Welcome to the Area Calculator Program \n");
+		System.out.print("Please enter the Radius of the circle: ");
 		
-		System.out.println("Bienvenido al programa que calcula el Area del un circulo\n");
-		System.out.print("Introduzca el Radio del circulo: ");
+		Radius= input.nextFloat();
 		
-		Radio = entrada.nextFloat();
+		Area = PI * Math.sqrt(Radius);
 		
-		Area = PI * Math.sqrt(Radio);
-		
-		System.out.printf("El Area del circulo es: %.2f", Area);
-		System.out.println("\n\nFin del Programa.");
+		System.out.printf("The Area of the circle is: %.2f", Area);
+		System.out.println("\n\nEnd of Program.");
 		
 	}
 }
