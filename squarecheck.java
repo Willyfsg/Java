@@ -19,11 +19,8 @@ public class squarecheck {
 			System.out.println("Yeah, has a square number!");
 		}else {
 			System.out.println("No, doesn't have a square number!.");
-
 		}
 		
-		
+		System.out.print("\n\nEnd of Program.");
 	}
-
-
 }
